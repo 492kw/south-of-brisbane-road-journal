@@ -1,6 +1,6 @@
 # South of Brisbane
 
-A one-page photo journal of Simon’s solo coastal road trip from Fingal Head to Minnie Water, built as a static site for GitHub Pages.
+A one-page photo journal of Simon’s coastal road trip from Tweed Heads to Minnie Water, initially with Dan and then solo, built as a static site for GitHub Pages.
 
 ## Run locally
 
