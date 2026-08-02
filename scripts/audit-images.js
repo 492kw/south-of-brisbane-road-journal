@@ -37,6 +37,7 @@ function fail(message) {
         await new Promise(resolve => setTimeout(resolve, 500));
         scrollTo(0, 0);
       });
+      await page.waitForFunction(() => [...document.querySelectorAll('#article .image-link img')].every(image => image.complete && image.naturalWidth > 0), null, { timeout: 30000 });
       const audit = await page.evaluate(() => ({
         scrollWidth: document.documentElement.scrollWidth,
         clientWidth: document.documentElement.clientWidth,
