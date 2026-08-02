@@ -1,0 +1,10 @@
+{
+  "name": "south-of-brisbane-road-journal",
+  "private": true,
+  "scripts": {
+    "audit:images": "node scripts/audit-images.js"
+  },
+  "devDependencies": {
+    "playwright": "1.61.1"
+  }
+}
